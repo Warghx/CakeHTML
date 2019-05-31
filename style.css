@@ -1,0 +1,125 @@
+body
+	{
+		background-image: url(fondo.jpg);
+	
+	
+	}
+*
+	{
+		margin:0;
+		padding:0;
+		
+	}
+img
+	{
+	vertical-align:bottom;
+	
+	}
+li
+	{
+	list-style:none;
+	}	
+#wrap
+	{
+		width:640px;
+		margin:0 auto 0 auto;
+		background-image:url(fondo2.jpg);
+		box-shadow: 0px 0 px 6px 3px #000;
+		-moz-box-shadow:0px 0px 6px 3px #000;
+		-webkit-box-shadow:0px 0px 6px 3px #000;
+		margin-top:20px;
+		background-repeat: no-repeat;
+		background-position: 50%;
+		border-radius: 50px;
+		
+	}
+#keymig{
+	border-radius: 50px 50px 0 0;
+	overflow:hidden;
+}
+#navi
+	{
+		font-size=0;
+		text-align:center;
+		background-color: rgb(232,249,217);
+	}
+#navi li
+	{
+		display:inline-block;
+		font-size:12px;
+		
+	}
+#navi li a
+	{
+		display:block;
+		height:40px;
+		width:150px;
+		overflow:hidden;
+		text-indent:100%;
+		white-space:nowrap;
+	}
+	
+	
+#home a
+	{
+		background-image:url(images/home_off.jpg);
+	}
+#ichigo a
+	{
+		background-image:url(images/ichigo_off.jpg);
+	}
+#fruit a
+	{
+		background-image:url(images/fruit_off.jpg);
+	}
+#shortceku a
+	{
+		background-image:url(images/shortceku_on.jpg);
+	}
+#home a:hover
+	{
+		background-image:url(images/home_on.jpg);
+		}
+#ichigo a:hover
+	{
+		background-image:url(images/ichigo_on.jpg);
+	}
+#fruit a:hover
+	{
+		background-image:url(images/fruit_on.jpg);
+	}
+#shortceku a:hover
+	{
+		background-image:url(images/shortceku_off.jpg);
+	}
+	
+#contents
+	{
+		padding:10px 20px;
+		overflow:hidden;
+	}
+#contents .text
+	{
+		float:left;
+		width:400px;
+		font-family:sans-serif;
+		color: #008000;
+	}
+#contents .banner
+	{
+		float:right;
+		margin-left:10px;
+		border-radius: 20px 20px 20px 20px;
+		overflow:hidden;
+
+		
+	}
+#contents .banner:hover
+{
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+	border-radius:50%;
+	-webkit-border-radius:33%;
+	-webkit-box-shadow: 0px 0px 1px 1px black;
+	
+}
